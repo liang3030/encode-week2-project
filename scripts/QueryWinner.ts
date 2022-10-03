@@ -13,9 +13,6 @@ const BALLOT_ADDRESS = "Insert here the deployed contract address"; // TODO: Rep
 
 const main = async () => { 
 
-  
-  //const provider = ethers.getDefaultProvider('goerli');
-
   const options = {
     alchemy: process.env.ALCHEMY_API_KEY,
     infura: process.env.INFURA_API_KEY,
